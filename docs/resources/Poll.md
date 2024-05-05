@@ -14,7 +14,7 @@ necessary.
 
 | Field             | Type                                                                                                | Description                                                     |
 |-------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
-| question          | [Poll Media Object](#DOCS_RESOURCES_POLL/poll-media-object-poll-media-object-structure)             | The question of the poll. Only `text` is supported.             |
+| question          | [Poll Media Object](#DOCS_RESOURCES_POLL/poll-media-object-poll-media-object-structure)             | The question of the poll.              |
 | answers           | List of [Poll Answer Objects](#DOCS_RESOURCES_POLL/poll-answer-object-poll-answer-object-structure) | Each of the answers available in the poll.                      |
 | expiry            | ?IS08601 timestamp                                                                                  | The time when the poll ends.                                    |
 | allow_multiselect | boolean                                                                                             | Whether a user can select multiple answers                      |
